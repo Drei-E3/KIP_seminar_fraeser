@@ -197,7 +197,7 @@ class WearDetector(Model):
         param_grid = param_grid
         grid = ParameterGrid(param_grid)
         best_score = float('inf')
-        best_params = None
+        best_params = 0.0
         X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=test_size)
         for params in grid:
             score = self.train( epochs=params['epochs'], batch_size=params['batch_size'],lr=params['lr'],test_size=0.2)
