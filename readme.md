@@ -1,7 +1,3 @@
-Certainly! Below is a README file template for your image processing and modeling project, which includes details on how to set up, use, and understand the functionalities provided by your scripts and the `app.py` interface.
-
----
-
 # Image Processing and Modeling Toolkit
 
 This project is a comprehensive suite of tools designed for various image processing tasks including augmentation, cropping, grayscaling, and a set of operations related to modeling. The toolkit is structured around a Python-based application (`app.py`) that serves as the entry point to use the four individual scripts:
